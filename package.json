@@ -1,0 +1,19 @@
+{
+  "name": "@aplex/utils",
+  "version": "0.1.1",
+  "description": "Tools for .js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "aplex",
+    "utils",
+    "aplexutils",
+    "aplexUtils",
+    "util",
+    "appleex"
+  ],
+  "author": "appleex <771992522@qq.com>",
+  "license": "MIT"
+}

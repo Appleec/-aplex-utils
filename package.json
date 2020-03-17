@@ -1,6 +1,6 @@
 {
   "name": "@aplex/utils",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Tools for .js.",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,19 @@
     "appleex"
   ],
   "author": "appleex <771992522@qq.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.8"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git@gitee.com:Appleex/aplex-utils.git"
+  }
 }

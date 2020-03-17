@@ -52,7 +52,7 @@ Utils.helper.timer() ;
 
 ## License
 
-[MIT](LICENSE)
+[MIT](https://github.com/Appleec/aplex-utils/blob/master/LICENSE)
 
 [npm-image]: https://img.shields.io/npm/v/@aplex/utils.svg
 [npm-url]: https://npmjs.org/package/@aplex/utils

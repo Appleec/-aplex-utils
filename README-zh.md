@@ -42,8 +42,8 @@ Utils.helper.timer() ;
 │   └── ...
 ├── index.js                    # Entry template file
 └── Eslint.md                   # Code rule description
-└── README.md                   # project instruction(en)
-└── README-zh.md                # project instruction(zh)
+└── README.md                   # project instruction(zh)
+└── README.en.md                # project instruction(en)
 └── package.json                # Project package configuration
 └── .npmignore                  # npm ignore file configuration
 └── .gitignore                  # git ignore file configuration

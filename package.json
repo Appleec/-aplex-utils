@@ -4,7 +4,8 @@
   "description": "Tools for .js.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "coverage": "jest --coverage"
   },
   "keywords": [
     "aplex",
@@ -20,7 +21,10 @@
     "node": ">= 0.8"
   },
   "devDependencies": {
-    "eslint": "^6.8.0"
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "eslint": "^6.8.0",
+    "jest": "^26.0.1"
   },
   "directories": {
     "lib": "lib"

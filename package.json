@@ -1,6 +1,6 @@
 {
   "name": "@aplex/utils",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Tools for .js.",
   "main": "index.js",
   "scripts": {

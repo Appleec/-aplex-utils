@@ -8,6 +8,7 @@ const {
     arrayEquals,
     isEmpty,
     keyCodes,
+    upperFirst,
     convertToUnit,
     mergeDeep
 } = require('../lib/helper')
@@ -49,6 +50,9 @@ describe('/** function check **/', () => {
     test('convertToUnit', () => {
         console.log('convertToUnit:', convertToUnit('300', 'm'))
         expect(convertToUnit(100));
+    });
+    test('upperFirst', () => {
+        console.log('convertToUnit:', upperFirst('sn'))
     });
 
     test('mergeDeep', () => {

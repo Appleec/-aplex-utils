@@ -31,7 +31,11 @@ $ npm install -g @apleex/utils
 ```
 var Utils = require('@appleex-utils') ;
 
-Utils.helper.timer() ;
+Utils.helper.<method>;
+Utils.fn.<method>;
+Utils.format.<method> ;
+Utils.get.<method> ;
+Utils.is.<method> ;
 ...
 ```
 
@@ -39,6 +43,10 @@ Utils.helper.timer() ;
 ```
 ├── lib/                     
 │   ├── helper.js               # Common method collection
+│   ├── fn.js                   # Common method collection
+│   ├── format.js               # Common method collection
+│   ├── get.js                  # Common method collection
+│   ├── is.js                   # Common method collection
 │   └── ...
 ├── index.js                    # Entry template file
 └── Eslint.md                   # Code rule description

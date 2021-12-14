@@ -92,3 +92,4 @@ typings/
 # extra cache
 .idea/
 /package-lock.json
+/docs/

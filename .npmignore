@@ -12,6 +12,7 @@ gen
 /node_modules/
 /package-lock.json
 /test.js
+/docs
 
 ### Node template
 # Logs
@@ -102,3 +103,4 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
+/docs/

@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "coverage": "jest --coverage"
+    "coverage": "jest --coverage",
+    "doc": "jsdoc -c jsdoc.json"
   },
   "keywords": [
     "aplex",
@@ -22,16 +23,24 @@
   },
   "devDependencies": {
     "@babel/core": "^7.9.6",
+    "@babel/plugin-transform-runtime": "^7.15.8",
     "@babel/preset-env": "^7.9.6",
+    "docdash": "^1.2.0",
     "eslint": "^6.8.0",
-    "jest": "^26.0.1"
+    "jest": "^26.0.1",
+    "jsdoc": "^3.6.7"
   },
   "directories": {
-    "lib": "lib"
+    "lib": "lib",
+    "test": "test"
   },
   "dependencies": {},
   "repository": {
     "type": "git",
-    "url": "git@gitee.com:Appleex/aplex-utils.git"
-  }
+    "url": "git+ssh://git@github.com/Appleec/aplex-utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Appleec/aplex-utils/issues"
+  },
+  "homepage": "https://github.com/Appleec/aplex-utils#readme"
 }

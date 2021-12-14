@@ -52,7 +52,7 @@ describe('/** function check **/', () => {
         expect(convertToUnit(100));
     });
     test('upperFirst', () => {
-        console.log('convertToUnit:', upperFirst('sn'))
+        console.log('upperFirst:', upperFirst('sn'))
     });
 
     test('mergeDeep', () => {

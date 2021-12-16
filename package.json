@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest",
     "coverage": "jest --coverage",
-    "doc": "jsdoc -c jsdoc.json"
+    "jsdoc:generate": "jsdoc -c jsdoc.json -R README.md",
+    "jsdoc:dev": "live-server docs --port=9090"
   },
   "keywords": [
     "aplex",
@@ -28,7 +29,8 @@
     "docdash": "^1.2.0",
     "eslint": "^6.8.0",
     "jest": "^26.0.1",
-    "jsdoc": "^3.6.7"
+    "jsdoc": "^3.6.7",
+    "live-server": "^1.2.1"
   },
   "directories": {
     "lib": "lib",

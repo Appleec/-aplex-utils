@@ -4,7 +4,7 @@
 import { addClass } from './../lib/dom'
 
 describe('addClass', () => {
-    it('should addClass', () => {
+    it('addClass...', () => {
         document.body.innerHTML = '<div id="wrapper"></div>';
         var _wrapper = document.querySelector('#wrapper');
 

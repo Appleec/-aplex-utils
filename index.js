@@ -19,6 +19,9 @@ module.exports = {
     'dom': require('./lib/dom'),
     'util': require('./lib/util'),
 
+    'getStyle': require('./lib/getStyle'),
+    'setStyle': require('./lib/setStyle'),
+    'camelCase': require('./lib/camelCase'),
     'trim': require('./lib/trim'),
     'toUpperFirst': require('./lib/toUpperFirst'),
     'toUpper': require('./lib/toUpper'),
